@@ -3,7 +3,7 @@
     android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/notifyback"
+    android:background="#C3E4ED"
     android:orientation="vertical" >
 
     <TextView

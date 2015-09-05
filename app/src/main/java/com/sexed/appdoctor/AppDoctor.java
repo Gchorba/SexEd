@@ -2,7 +2,6 @@ package com.sexed.appdoctor;
 
 
 
-import com.appszoom.appszoomsdk.AppsZoom;
 import com.sexed.appdoctor.R.drawable;
 
 import android.annotation.SuppressLint;
@@ -24,8 +23,7 @@ import android.widget.ImageButton;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.app_doctor);
         ImageButton sym=(ImageButton)findViewById(R.id.b_sym);
-        AppsZoom.start(this);
-        AppsZoom.showAd(this);
+
         if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.JELLY_BEAN_MR2) 
 		{
 			ActionBar actionbar=getActionBar();

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context="com.sexed.appdoctor.SubAntiinflamatory"
     tools:ignore="MergeRootFrame" 
-     android:background="@drawable/pillsplash">
+     android:background="#C3E4ED">
 
     <ListView
         android:id="@+id/antiinflamatoryList1"
