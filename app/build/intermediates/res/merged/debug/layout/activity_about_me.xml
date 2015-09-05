@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/wallback"
-    tools:context="com.medworld.appdoctor.AboutMe"
+    tools:context="com.sexed.appdoctor.AboutMe"
     tools:ignore="MergeRootFrame" >
 
     <TextView
@@ -22,4 +22,4 @@
         android:contentDescription="@string/coffee"
         android:src="@drawable/button_selector" />
 
-</TableLayout><!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/layout/activity_about_me.xml -->
+</TableLayout><!-- From: file:/C:/Users/Jeroen/Documents/GitHub/SexEd/app/src/main/res/layout/activity_about_me.xml -->

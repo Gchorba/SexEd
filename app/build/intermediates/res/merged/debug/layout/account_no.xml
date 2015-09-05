@@ -13,7 +13,7 @@
     android:layout_height="wrap_content"
     android:background="@drawable/lb"
     android:contentDescription="@string/hello_world"
-    tools:context="com.medworld.appdoctor.AccountNo"
+    tools:context="com.sexed.appdoctor.AccountNo"
     tools:ignore="MergeRootFrame" >
     
 
@@ -77,4 +77,4 @@
    </RelativeLayout>
 
 </ScrollView>
-<!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/layout/account_no.xml -->
+<!-- From: file:/C:/Users/Jeroen/Documents/GitHub/SexEd/app/src/main/res/layout/account_no.xml -->

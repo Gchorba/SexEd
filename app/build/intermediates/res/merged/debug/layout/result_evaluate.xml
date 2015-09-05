@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/md1"
-    tools:context="com.medworld.appdoctor.ResultEvaluate"
+    tools:context="com.sexed.appdoctor.ResultEvaluate"
     tools:ignore="MergeRootFrame" >
 
     <TextView
@@ -36,4 +36,4 @@
         android:textSize="@dimen/text_size" />
 
 </RelativeLayout>
-<!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/layout/result_evaluate.xml -->
+<!-- From: file:/C:/Users/Jeroen/Documents/GitHub/SexEd/app/src/main/res/layout/result_evaluate.xml -->

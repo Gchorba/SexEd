@@ -7,10 +7,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.medworld.appdoctor.AboutMe$PlaceholderFragment" >
+    tools:context="com.sexed.appdoctor.AboutMe$PlaceholderFragment" >
     
     
    
 
 </TableLayout>
-<!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/layout/fragment_about_me.xml -->
+<!-- From: file:/C:/Users/Jeroen/Documents/GitHub/SexEd/app/src/main/res/layout/fragment_about_me.xml -->
