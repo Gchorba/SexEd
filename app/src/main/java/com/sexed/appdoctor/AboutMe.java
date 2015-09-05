@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -34,7 +35,7 @@ public class AboutMe extends Activity {
 		tv=(TextView)findViewById(R.id.aboutText1);
 	    tv.setText("I am an engineering student hoping to create an impact on the world of engineering by trying to implement various innovative ideas and by inspiring others to do the same!All my apps are free and it always will be:)");
 	    tv.setTextColor(Color.argb(255, 82, 26, 113));    
-	    ImageButton start=(ImageButton)findViewById(R.id.imageBtn1);
+	    Button start=(Button)findViewById(R.id.imageBtn1);
 	        start.setOnClickListener(new View.OnClickListener() {
 				
 				@Override

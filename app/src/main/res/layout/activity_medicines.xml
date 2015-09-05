@@ -4,7 +4,7 @@
     style="@style/italics"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/medspic"
+    android:background="#C3E4ED"
     tools:context="com.sexed.appdoctor.Medicines"
     tools:ignore="MergeRootFrame" >
 

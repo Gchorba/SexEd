@@ -3,7 +3,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wallback"
+    android:background="#C3E4ED"
     tools:context="com.sexed.appdoctor.AboutMe"
     tools:ignore="MergeRootFrame" >
 
@@ -14,11 +14,11 @@
         android:text="@string/hello_world"
         android:textSize="@dimen/text_size" />
 
-    <ImageButton
+    <Button
         android:id="@+id/imageBtn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/violetback"
+
         android:contentDescription="@string/coffee"
         android:src="@drawable/button_selector" />
 

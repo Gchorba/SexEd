@@ -3,7 +3,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/notifyback"
+    android:background="#C3E4ED"
     android:orientation="vertical"
     tools:context="com.trigg.alarmclock.SetNotification"
     tools:ignore="MergeRootFrame" >

@@ -101,16 +101,16 @@ public class Symptoms extends Activity {
 		};
 		
 		
-		if (count ==0)
-        {
-     	View myView =  this.findViewById(R.id.LinearLayout1); 
-     	myView.setBackgroundResource(R.drawable.sympback);
-        }
-     else
-        {
-     	View myView =  this.findViewById(R.id.LinearLayout1); 
-     	myView.setBackgroundResource(R.drawable.clickherewhendone);
-        }
+//		if (count ==0)
+//        {
+//     	View myView =  this.findViewById(R.id.LinearLayout1);
+//     	myView.setBackgroundResource(R.drawable.sympback);
+//        }
+//     else
+//        {
+//     	View myView =  this.findViewById(R.id.LinearLayout1);
+//
+//        }
 		
 		
 		checkbox[0].setOnClickListener(new OnClickListener() {
@@ -1621,16 +1621,16 @@ public class Symptoms extends Activity {
     
     public void backgroundchange()
     {
-       if (count ==0)
-          {
-       	View myView =  this.findViewById(R.id.LinearLayout1); 
-       	myView.setBackgroundResource(R.drawable.sympback);
-          }
-       else
-          {
-       	View myView =  this.findViewById(R.id.LinearLayout1); 
-       	myView.setBackgroundResource(R.drawable.clickherewhendone);
-          }
+//       if (count ==0)
+//          {
+//       	View myView =  this.findViewById(R.id.LinearLayout1);
+//       	myView.setBackgroundResource(R.drawable.sympback);
+//          }
+//       else
+//          {
+//       	View myView =  this.findViewById(R.id.LinearLayout1);
+//       	myView.setBackgroundResource(R.drawable.clickherewhendone);
+//          }
     }   
     
     @Override
