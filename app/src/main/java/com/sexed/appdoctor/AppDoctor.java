@@ -4,6 +4,7 @@ package com.sexed.appdoctor;
 
 import android.app.Activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -38,6 +39,7 @@ public class AppDoctor extends Activity {
             @Override
             public void onClick(View view) {
                 //start the utilities menu activity
+                startActivity(new Intent(AppDoctor.this,Messages.class));
             }
         });
 

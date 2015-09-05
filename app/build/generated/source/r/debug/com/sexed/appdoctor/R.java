@@ -83,7 +83,7 @@ public final class R {
         public static final int wood=0x7f02003b;
     }
     public static final class id {
-        public static final int action_settings=0x7f090008;
+        public static final int action_settings=0x7f09000d;
         public static final int button=0x7f090005;
         public static final int button2=0x7f090006;
         public static final int button3=0x7f090007;
@@ -91,20 +91,34 @@ public final class R {
         public static final int button5=0x7f090001;
         public static final int button6=0x7f090002;
         public static final int button7=0x7f090003;
+        public static final int button8=0x7f090009;
+        public static final int button9=0x7f09000b;
         public static final int container=0x7f090004;
+        public static final int editText=0x7f09000a;
+        public static final int editText2=0x7f09000c;
+        public static final int textView=0x7f090008;
     }
     public static final class layout {
         public static final int about=0x7f040000;
         public static final int app_doctor=0x7f040001;
-        public static final int education=0x7f040002;
-        public static final int tools=0x7f040003;
+        public static final int clinics=0x7f040002;
+        public static final int disease_identifier=0x7f040003;
+        public static final int education=0x7f040004;
+        public static final int messages=0x7f040005;
+        public static final int period_tracker=0x7f040006;
+        public static final int settings=0x7f040007;
+        public static final int tools=0x7f040008;
     }
     public static final class menu {
         public static final int main=0x7f080000;
         public static final int menu_about=0x7f080001;
-        public static final int menu_education=0x7f080002;
-        public static final int menu_period_tracker=0x7f080003;
-        public static final int menu_tools=0x7f080004;
+        public static final int menu_clinics=0x7f080002;
+        public static final int menu_disease_identifier=0x7f080003;
+        public static final int menu_education=0x7f080004;
+        public static final int menu_messages=0x7f080005;
+        public static final int menu_period_tracker=0x7f080006;
+        public static final int menu_settings=0x7f080007;
+        public static final int menu_tools=0x7f080008;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
@@ -201,27 +215,31 @@ public final class R {
         public static final int title_activity_about=0x7f070058;
         public static final int title_activity_about_me=0x7f070059;
         public static final int title_activity_account_no=0x7f07005a;
-        public static final int title_activity_disease_explanation=0x7f07005b;
-        public static final int title_activity_diseases=0x7f07005c;
-        public static final int title_activity_education=0x7f07005d;
-        public static final int title_activity_health_news=0x7f07005e;
-        public static final int title_activity_inspirational_quotes=0x7f07005f;
-        public static final int title_activity_medicines=0x7f070060;
-        public static final int title_activity_period_tracker=0x7f070061;
-        public static final int title_activity_result_evaluate=0x7f070062;
-        public static final int title_activity_set_notification=0x7f070063;
-        public static final int title_activity_sub_antibiotic=0x7f070064;
-        public static final int title_activity_sub_antihistamine=0x7f070065;
-        public static final int title_activity_sub_antiinflamatory=0x7f070066;
-        public static final int title_activity_sub_painkiller=0x7f070067;
-        public static final int title_activity_symptoms=0x7f070068;
-        public static final int title_activity_tools=0x7f070069;
-        public static final int twitter=0x7f07006a;
-        public static final int weightGain=0x7f07006b;
-        public static final int weightLoss=0x7f07006c;
-        public static final int welcome=0x7f07006d;
-        public static final int yellowSkin=0x7f07006e;
-        public static final int yourquote=0x7f07006f;
+        public static final int title_activity_clinics=0x7f07005b;
+        public static final int title_activity_disease_explanation=0x7f07005c;
+        public static final int title_activity_disease_identifier=0x7f07005d;
+        public static final int title_activity_diseases=0x7f07005e;
+        public static final int title_activity_education=0x7f07005f;
+        public static final int title_activity_health_news=0x7f070060;
+        public static final int title_activity_inspirational_quotes=0x7f070061;
+        public static final int title_activity_medicines=0x7f070062;
+        public static final int title_activity_messages=0x7f070063;
+        public static final int title_activity_period_tracker=0x7f070064;
+        public static final int title_activity_result_evaluate=0x7f070065;
+        public static final int title_activity_set_notification=0x7f070066;
+        public static final int title_activity_settings=0x7f070067;
+        public static final int title_activity_sub_antibiotic=0x7f070068;
+        public static final int title_activity_sub_antihistamine=0x7f070069;
+        public static final int title_activity_sub_antiinflamatory=0x7f07006a;
+        public static final int title_activity_sub_painkiller=0x7f07006b;
+        public static final int title_activity_symptoms=0x7f07006c;
+        public static final int title_activity_tools=0x7f07006d;
+        public static final int twitter=0x7f07006e;
+        public static final int weightGain=0x7f07006f;
+        public static final int weightLoss=0x7f070070;
+        public static final int welcome=0x7f070071;
+        public static final int yellowSkin=0x7f070072;
+        public static final int yourquote=0x7f070073;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 

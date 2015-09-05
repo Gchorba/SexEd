@@ -147,6 +147,22 @@
             android:name="com.sexed.appdoctor.PeriodTracker"
             android:label="@string/title_activity_period_tracker" >
         </activity>
+        <activity
+            android:name="com.sexed.appdoctor.DiseaseIdentifier"
+            android:label="@string/title_activity_disease_identifier" >
+        </activity>
+        <activity
+            android:name="com.sexed.appdoctor.Clinics"
+            android:label="@string/title_activity_clinics" >
+        </activity>
+        <activity
+            android:name="com.sexed.appdoctor.Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.sexed.appdoctor.Messages"
+            android:label="@string/title_activity_messages" >
+        </activity>
     </application>
 
 </manifest>

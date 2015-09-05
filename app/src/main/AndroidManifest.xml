@@ -147,6 +147,22 @@
             android:name=".PeriodTracker"
             android:label="@string/title_activity_period_tracker" >
         </activity>
+        <activity
+            android:name=".DiseaseIdentifier"
+            android:label="@string/title_activity_disease_identifier" >
+        </activity>
+        <activity
+            android:name=".Clinics"
+            android:label="@string/title_activity_clinics" >
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".Messages"
+            android:label="@string/title_activity_messages" >
+        </activity>
     </application>
 
 </manifest>
