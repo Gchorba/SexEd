@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sexed.appdoctor"
     android:versionCode="3"
-    android:versionName="2.2">
+    android:versionName="2.2" >
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -15,16 +15,17 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <application
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
+    <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme" >
         <activity
-            android:name="com.sexed.appdoctor.AppDoctor"
+            android:name=".AppDoctor"
             android:label="@string/app_name"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,85 +37,87 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent" />
         <activity
-            android:name="com.sexed.appdoctor.Symptoms"
+            android:name=".Symptoms"
             android:label="@string/title_activity_symptoms"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.sexed.appdoctor.Diseases"
+            android:name=".Diseases"
             android:label="@string/title_activity_diseases"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.sexed.appdoctor.Medicines"
+            android:name=".Medicines"
             android:label="@string/title_activity_medicines"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.sexed.appdoctor.AboutMe"
+            android:name=".AboutMe"
             android:label="@string/title_activity_about_me"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.sexed.appdoctor.SubPainkiller"
+            android:name=".SubPainkiller"
             android:label="@string/title_activity_sub_painkiller"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.sexed.appdoctor.SubAntibiotic"
+            android:name=".SubAntibiotic"
             android:label="@string/title_activity_sub_antibiotic"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.sexed.appdoctor.SubAntihistamine"
+            android:name=".SubAntihistamine"
             android:label="@string/title_activity_sub_antihistamine"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.sexed.appdoctor.InspirationalQuotes"
+            android:name=".InspirationalQuotes"
             android:label="@string/title_activity_inspirational_quotes"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.sexed.appdoctor.AccountNo"
+            android:name=".AccountNo"
             android:label="@string/title_activity_account_no"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.sexed.appdoctor.ResultEvaluate"
+            android:name=".ResultEvaluate"
             android:label="@string/title_activity_result_evaluate"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.sexed.appdoctor.DiseaseExplanation"
+            android:name=".DiseaseExplanation"
             android:label="@string/title_activity_disease_explanation"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.sexed.appdoctor.SubAntiinflamatory"
-            android:label="@string/title_activity_sub_antiinflamatory"></activity>
+            android:name=".SubAntiinflamatory"
+            android:label="@string/title_activity_sub_antiinflamatory" />
         <activity
-            android:name="com.sexed.appdoctor.AlarmListActivity"
-            android:screenOrientation="portrait"></activity>
+            android:name=".AlarmListActivity"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.sexed.appdoctor.AlarmScreen"
-            android:screenOrientation="portrait"></activity>
+            android:name=".AlarmScreen"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.sexed.appdoctor.AlarmDetailsActivity"
-            android:screenOrientation="portrait"></activity>
+            android:name=".AlarmDetailsActivity"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.sexed.appdoctor.SetNotification"
+            android:name=".SetNotification"
             android:label="@string/title_activity_set_notification"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
 
         <service
-            android:name="com.sexed.appdoctor.AlarmService"
+            android:name=".AlarmService"
             android:enabled="true"
-            android:screenOrientation="portrait"></service>
+            android:screenOrientation="portrait" />
 
         <receiver
-            android:name="com.sexed.appdoctor.AlarmManagerHelper"
-            android:screenOrientation="portrait">
+            android:name=".AlarmManagerHelper"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
 
-
-        <!-- Detect app installs. Necessary to control the installs your app
-            generates (avoid using it if you are only tracking) -->
-        <receiver android:name="com.appszoom.appszoomsdk.AppsZoomPackageAddedReceiver">
+        <!--
+             Detect app installs. Necessary to control the installs your app
+            generates (avoid using it if you are only tracking)
+        -->
+        <receiver android:name="com.appszoom.appszoomsdk.AppsZoomPackageAddedReceiver" >
             <intent-filter>
                 <data android:scheme="package" />
+
                 <action android:name="android.intent.action.PACKAGE_ADDED" />
             </intent-filter>
         </receiver>
@@ -122,11 +125,28 @@
         <!-- Detect the installation of your app and the source. -->
         <receiver
             android:name="com.appszoom.appszoomsdk.AppsZoomReferrerReceiver"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="com.android.vending.INSTALL_REFERRER" />
             </intent-filter>
         </receiver>
+
+        <activity
+            android:name=".Education"
+            android:label="@string/title_activity_education" >
+        </activity>
+        <activity
+            android:name=".Tools"
+            android:label="@string/title_activity_tools" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".PeriodTracker"
+            android:label="@string/title_activity_period_tracker" >
+        </activity>
     </application>
 
 </manifest>

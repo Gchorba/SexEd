@@ -4,19 +4,261 @@
     <shared>
       <config />
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/alarm_details.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light.DarkActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/alarm_list.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light.DarkActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/donate.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light.DarkActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/done_details.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light.DarkActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light.DarkActionBar</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4575c5a-c034-4cb0-97d4-b90b5fc4a023" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout-v14\custom_switch.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\account_no.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\activity_about_me.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\activity_alarm_list.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\activity_alarm_screen.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\activity_details.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\activity_disease_explanation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\activity_diseases.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\activity_medicines.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\activity_set_notification.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\activity_sub_antibiotic.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\activity_sub_antihistamine.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\activity_sub_antiinflamatory.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\activity_sub_painkiller.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\activity_symptoms.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\alarm_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\custom_switch.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\fragment_about_me.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\inspirational_quotes.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\layout\result_evaluate.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\menu\about_me.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\menu\alarm_details.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\menu\alarm_list.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\menu\donate.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\menu\done_details.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\menu\set_notification.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\res\merged\debug\menu\view_time.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\AboutMe.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\AccountNo.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\AlarmContract.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\AlarmDBHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\AlarmDetailsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\AlarmListActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\AlarmListAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\AlarmManagerHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\AlarmModel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\AlarmScreen.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\AlarmService.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\CustomSwitch.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\DiseaseExplanation.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\Diseases.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\InspirationalQuotes.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\Medicines.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\ResultEvaluate.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\SetNotification.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\SubAntibiotic.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\SubAntihistamine.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\SubAntiinflamatory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\SubPainkiller.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\Symptoms.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\java\com\sexed\appdoctor\inspQuoteData.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\accept.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\action_bar_add.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\action_previous.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\action_save.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\actionback2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\clickherewhendone.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\diseaseback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\diseaseexp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\donate_icon1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\medsd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\medsk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\medspic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\notifyback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\pillroom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\pillsplash.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\symbol_doc.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\sympback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\timepicbac.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\wallback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-hdpi\wood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\accept.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\action_bar_add.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\action_previous.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\action_save.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\actionback2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\clickherewhendone.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\diseaseback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\diseaseexp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\donate_icon1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\gradiant.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\medsd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\medspic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\notifyback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\pillroom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\sympback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\timepicbac.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\wallback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-mdpi\wood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-xhdpi\accept.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-xhdpi\action_bar_add.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-xhdpi\action_previous.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-xhdpi\action_save.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-xhdpi\actionback2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-xhdpi\donate_icon1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-xhdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-xxhdpi\accept.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-xxhdpi\action_bar_add.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-xxhdpi\action_previous.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-xxhdpi\action_save.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-xxhdpi\donate_icon1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable-xxhdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\action_previous.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\actionback2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\bnback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\bnback2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\button_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\clickherewhendone.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\coffeeback1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\coffeeback2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\d1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\d2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\diseaseback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\diseaseexp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\donate_icon1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\done_btn.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\doneback1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\doneback2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\fcbk.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\gplus.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\h1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\h2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\hmbt1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\hmbt2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\hmbt3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\hmbt4.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\hmbt5.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\hmbt6.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\holo_pressed_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\i1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\i2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\k1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\k2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\lb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\lnkdin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\m1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\m2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\mainback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\md1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\me1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\medsd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\medsk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\medspic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\notifyback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\pillroom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\pillsplash.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\redback.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\s1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\s2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\sympback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\timepicbac.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\view_touch_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\violetback.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\wallback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\drawable\wood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout-v14\custom_switch.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\account_no.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\activity_about_me.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\activity_alarm_list.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\activity_alarm_screen.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\activity_details.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\activity_disease_explanation.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\activity_diseases.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\activity_medicines.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\activity_set_notification.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\activity_sub_antibiotic.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\activity_sub_antihistamine.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\activity_sub_antiinflamatory.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\activity_sub_painkiller.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\activity_symptoms.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\alarm_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\custom_switch.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\fragment_about_me.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\inspirational_quotes.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\result_evaluate.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\menu\about_me.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\menu\alarm_details.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\menu\alarm_list.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\menu\donate.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\menu\done_details.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\menu\set_notification.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\menu\view_time.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\values-v11\styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\values-v14\styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\values-w820dp\dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\values\dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\values\styles.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/clickherewhendone.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/clickherewhendone.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/clickherewhendone.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/clickherewhendone.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi/clickherewhendone.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi/clickherewhendone.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/notifyback.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/notifyback.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/notifyback.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/notifyback.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi/notifyback.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi/notifyback.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/sympback.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/sympback.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/sympback.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/sympback.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi/sympback.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi/sympback.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/wallback.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/wallback.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/wallback.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/wallback.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi/wallback.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi/wallback.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/wood.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/wood.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/wood.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi/wood.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi/wood.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/AppDoctor.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/AppDoctor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/sexed/appdoctor/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/sexed/appdoctor/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/app_doctor.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/app_doctor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_doctor.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_doctor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SexEd.iws" />
@@ -46,58 +288,122 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AboutMe.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/AboutMe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AppDoctor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/AppDoctor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2413793">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#697#864#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#905#1076#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1113#1278#0" expanded="true" />
+                <element signature="e#1277#1278#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountNo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/AccountNo.java">
+      <file leaf-file-name="Education.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Education.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Symptoms.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Symptoms.java">
+      <file leaf-file-name="About.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/About.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <file leaf-file-name="about.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/about.xml">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PeriodTracker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/PeriodTracker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79826087">
-              <caret line="105" column="48" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
-              <folding>
-                <element signature="e#870#888#0" expanded="true" />
-                <element signature="e#1636#1669#0" expanded="true" />
-                <element signature="e#1831#1864#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.3547826">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="period_tracker.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/period_tracker.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.034483">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tools.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Tools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tools.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tools.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.6896553">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="education.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/education.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.0">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1529,8 +1835,20 @@
       <list>
         <option value="$PROJECT_DIR$/SexEd.iml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/AppDoctor.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Medicines.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/app_doctor.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/alarm_details.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/alarm_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/donate.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/done_details.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/main.xml" />
+        <option value="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/AppDoctor.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/medworld/appdoctor/Education.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Education.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/about.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/PeriodTracker.java" />
       </list>
     </option>
   </component>
@@ -1583,6 +1901,86 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SexEd" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mipmap" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ic_launcher.png" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SexEd" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SexEd" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SexEd" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1719,6 +2117,23 @@
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="880a503a" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_21_x86" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout/tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.sexed.appdoctor" />
+      <recent name="com.medworld.appdoctor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\res\layout\tools" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sexed.appdoctor" />
+    </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
     <UpdatedFiles>
@@ -1879,6 +2294,36 @@
       <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -1913,6 +2358,11 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -2041,7 +2491,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441428578036</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="portrait everywhere">
+      <created>1441428838159</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1441428838159</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2049,20 +2505,21 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15778251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2082,21 +2539,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed the manifest (deleted obsolete calls)" />
     <MESSAGE value="removed adds" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed adds" />
+    <MESSAGE value="portrait everywhere" />
+    <option name="LAST_COMMIT_MESSAGE" value="portrait everywhere" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/AboutMe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AppDoctor1.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2136,49 +2586,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/AboutMe.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Symptoms.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_doctor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1724138">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/AccountNo.java">
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/AppDoctor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2413793">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#697#864#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#905#1076#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1113#1278#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/education.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79826087">
-          <caret line="105" column="48" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
-          <folding>
-            <element signature="e#870#888#0" expanded="true" />
-            <element signature="e#1636#1669#0" expanded="true" />
-            <element signature="e#1831#1864#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tools.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6896553">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Education.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/About.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/about.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/period_tracker.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.034483">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/PeriodTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3547826">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

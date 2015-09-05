@@ -1,84 +1,36 @@
 
- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#C3E4ED"
         android:orientation="vertical" >
-        
-   <ScrollView
-        android:id="@+id/scrollView1"
-        android:layout_width="match_parent"
-        android:background="#C3E4ED"
-        android:layout_height="wrap_content" >
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Education"
+         android:id="@+id/button"
+         android:layout_gravity="center_horizontal"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="82dp" />
 
-    <ImageButton
-        android:id="@+id/b_sym"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
-         android:layout_gravity="center"
-        android:background="@drawable/mainback"
-        android:contentDescription="@string/symptoms"
-        android:src="@drawable/hmbt1" />
-    
-     <ImageButton
-        android:id="@+id/b_insp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" 
-        android:layout_marginTop="20dp"
-         android:layout_gravity="center"
-        android:background="@drawable/mainback"
-        android:contentDescription="@string/inspirational_quotes"
-        android:src="@drawable/hmbt2" />
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Tools"
+         android:id="@+id/button2"
+         android:layout_below="@+id/button"
+         android:layout_centerHorizontal="true" />
 
-    <ImageButton
-        android:id="@+id/b_dis"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/mainback"
-        android:layout_gravity="center"
-        android:contentDescription="@string/diseases"
-        android:src="@drawable/hmbt3" />
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="About"
+         android:id="@+id/button3"
+         android:layout_below="@+id/button2"
+         android:layout_centerHorizontal="true" />
 
-    <ImageButton
-        android:id="@+id/b_med"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-         android:layout_gravity="center"
-        android:background="@drawable/mainback"
-        android:contentDescription="@string/medicines"
-        android:src="@drawable/hmbt4" />
-
-    <ImageButton
-        android:id="@+id/b_health"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-         android:layout_gravity="center"
-        android:background="@drawable/mainback"
-        android:contentDescription="@string/health_news"
-        android:src="@drawable/hmbt5" />
-
-    <ImageButton
-        android:id="@+id/b_about"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:background="@drawable/mainback"
-        android:contentDescription="@string/about_us"
-        android:src="@drawable/hmbt6" />
-    </LinearLayout>
-  </ScrollView>
-    
- </LinearLayout>
+ </RelativeLayout>
 

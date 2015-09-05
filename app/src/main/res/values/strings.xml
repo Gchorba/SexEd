@@ -109,5 +109,9 @@
     <string name="twitter">twitter</string>
     <string name="save">save</string>
     <string name="always">always</string>
+    <string name="title_activity_education">Education</string>
+    <string name="title_activity_tools">Tools</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_period_tracker">Period Tracker</string>
 
 </resources>
