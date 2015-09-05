@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+    <item android:id="@menu/view_time"
+          android:showAsAction="always|withText" 
+          android:title="@string/ViewTime" 
+          android:visible="true">
+        
+    </item>
+          
+
+</menu>
+<!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/menu/view_time.xml -->

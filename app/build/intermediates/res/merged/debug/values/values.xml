@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="caution">15sp</dimen>
+    <dimen name="checkText">22sp</dimen>
+    <dimen name="disease_text">21sp</dimen>
+    <dimen name="quoteValue">22sp</dimen>
+    <dimen name="text">30sp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="ChestPain">chest pain</string>
+    <string name="Chills">chills</string>
+    <string name="Default">Default</string>
+    <string name="EyePain">eye pain</string>
+    <string name="F">F</string>
+    <string name="Fatigue">fatigue(tiredness)</string>
+    <string name="Headache">Headache</string>
+    <string name="HighBP">high blood pressure</string>
+    <string name="HighFever">high fever</string>
+    <string name="JointPain">joint pain</string>
+    <string name="LightStools">light coloured stools</string>
+    <string name="LowBP">low blood pressure</string>
+    <string name="M">M</string>
+    <string name="MemoryProblem">memory problems</string>
+    <string name="MildCough">mild cough</string>
+    <string name="MildFever">mild fever</string>
+    <string name="NausiaVomit">nausia and vomitting</string>
+    <string name="RunnyNose">runny nose</string>
+    <string name="S">S</string>
+    <string name="SevereCough">severe cough</string>
+    <string name="ShortBreath">shortness of breath</string>
+    <string name="SkinRash">skin rash</string>
+    <string name="SoreThroat">sore throat</string>
+    <string name="T">T</string>
+    <string name="ToggleButton">ToggleButton</string>
+    <string name="ViewTime">View Time</string>
+    <string name="W">W</string>
+    <string name="ZeroZero">00:00</string>
+    <string name="about_us">Know me</string>
+    <string name="ache">aches and pains in arms and legs</string>
+    <string name="action_settings">Settings</string>
+    <string name="always">always</string>
+    <string name="apetite">loss of apetite</string>
+    <string name="app_name">App Doctor</string>
+    <string name="az_appkey">0f8102b5c2d1600d6da603018352ae60</string>
+    <string name="backPain">back pain</string>
+    <string name="bloodUrine">blood in urine</string>
+    <string name="bluishSkin">bluish skin</string>
+    <string name="brightLights">discomfort in bright lights</string>
+    <string name="coffee">Connect with me:)</string>
+    <string name="coordProb">coordination problems</string>
+    <string name="coughBlood">coughing up blood</string>
+    <string name="darkUrine">dark coloured urine</string>
+    <string name="details_alarm_tone">Notification Tone</string>
+    <string name="details_alarm_tone_default">Select a notification tone</string>
+    <string name="diarrhea">diarrhea</string>
+    <string name="diffUrination">difficulty in Urination</string>
+    <string name="diseases">diseases</string>
+    <string name="dizziness">dizziness</string>
+    <string name="donate">donate</string>
+    <string name="done">done</string>
+    <string name="doubleVision">double vision</string>
+    <string name="drooling">drooling</string>
+    <string name="dryskin">scale dry skin</string>
+    <string name="fb">fb</string>
+    <string name="getQuotes">Get your daily quotes</string>
+    <string name="googleplus">googleplus</string>
+    <string name="health_news">health news</string>
+    <string name="heartRate">rapid heart rate</string>
+    <string name="hello_world">oops</string>
+    <string name="hepatitis">hepatitis</string>
+    <string name="inspirational_quotes">Inspirational Quotes</string>
+    <string name="jaundice">jaundice</string>
+    <string name="lightheadedness">lightheadedness</string>
+    <string name="linkedin">linkedin</string>
+    <string name="looseTeeth">loose teeth</string>
+    <string name="lossBladd">loss of bladder/ bowl control</string>
+    <string name="medicines">medicines</string>
+    <string name="mouthSore">mouth sores and blisters</string>
+    <string name="muscleCramp">muscle cramps</string>
+    <string name="niceday">have a nice day!</string>
+    <string name="paleTongue">pale tongue with red spots</string>
+    <string name="paralysis">paralysis on face /arm /legs /one side of the body</string>
+    <string name="pelvicPain">pelvic pain</string>
+    <string name="raceBeat">racing or slow heart beat</string>
+    <string name="redRash">bright red rash</string>
+    <string name="save">save</string>
+    <string name="skinBleeding">bleeding in skin</string>
+    <string name="skinMole">growing mole on skin</string>
+    <string name="spotRash">spots(rash)</string>
+    <string name="stiffness">stiffness in arms, legs and neck</string>
+    <string name="suddenConf">sudden confusion or trouble while walking or speaking</string>
+    <string name="suddenNumb">sudden numbness of face leg or arm</string>
+    <string name="swallow">difficulty swallowing</string>
+    <string name="swollenEyelids">swollen eyelids</string>
+    <string name="swollenGums">swollen spongy purplish gums</string>
+    <string name="swollenLeg">swollen legs and feat</string>
+    <string name="symptoms">symptoms</string>
+    <string name="title_activity_about_me">About Me</string>
+    <string name="title_activity_account_no">Connect with me:)</string>
+    <string name="title_activity_disease_explanation">Disease Description</string>
+    <string name="title_activity_diseases">Diseases</string>
+    <string name="title_activity_health_news">Health News</string>
+    <string name="title_activity_inspirational_quotes">Inspirational Quotes</string>
+    <string name="title_activity_medicines">Medicines</string>
+    <string name="title_activity_result_evaluate">ResultEvaluate</string>
+    <string name="title_activity_set_notification">Your daily Quote:)</string>
+    <string name="title_activity_sub_antibiotic">Antibiotic Medicines</string>
+    <string name="title_activity_sub_antihistamine">Antihistamine Medicines</string>
+    <string name="title_activity_sub_antiinflamatory">Antiinflamatory medicines</string>
+    <string name="title_activity_sub_painkiller">Painkiller Medicines</string>
+    <string name="title_activity_symptoms">Symptoms</string>
+    <string name="twitter">twitter</string>
+    <string name="weightGain">weight gain</string>
+    <string name="weightLoss">weight loss</string>
+    <string name="welcome">welcome</string>
+    <string name="yellowSkin">yellow discoloration of skin</string>
+    <string name="yourquote">Your quote for today is</string>
+    <!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+         <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+       <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Divider">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">1dp</item>
+		<item name="android:background">?android:attr/listDivider</item>
+	</style>
+    <style name="MyActionBar" parent="@android:style/Widget.ActionBar">
+           <item name="android:background">@drawable/actionback2</item>   
+               
+    </style>
+    <style name="italics" parent="AppTheme"/>
+</resources>

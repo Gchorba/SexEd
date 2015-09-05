@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@menu/donate"
+        android:icon="@drawable/donate_icon1"
+        android:showAsAction="always" 
+        android:title="@string/donate"
+        android:visible="true"/>
+</menu>
+<!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/menu/donate.xml -->

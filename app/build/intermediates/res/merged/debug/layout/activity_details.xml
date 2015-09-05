@@ -1,0 +1,76 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/diseaseback"
+    android:isScrollContainer="true" >
+
+  
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        tools:context=".AlarmDetailsActivity" >
+
+        <TimePicker
+            android:id="@+id/alarm_details_time_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <View
+            android:id="@+id/divider2"
+            style="@style/Divider"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/alarm_details_time_picker" />
+        
+        <View
+            android:id="@+id/divider1"
+            style="@style/Divider"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/divider2" />
+        
+        <View
+            android:id="@+id/divider4"
+            style="@style/Divider"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/divider1" />
+
+        <LinearLayout
+            android:id="@+id/alarm_ringtone_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/divider4"
+            android:background="@drawable/view_touch_selector"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/alarm_label_tone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/details_alarm_tone"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/alarm_label_tone_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:text="@string/details_alarm_tone_default"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider3"
+            style="@style/Divider"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/alarm_ringtone_container" />
+    </RelativeLayout>
+
+</ScrollView><!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/layout/activity_details.xml -->

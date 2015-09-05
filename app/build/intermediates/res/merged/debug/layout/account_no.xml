@@ -1,0 +1,80 @@
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView1"
+         android:background="@drawable/lb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+
+  <RelativeLayout 
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lb"
+    android:contentDescription="@string/hello_world"
+    tools:context="com.medworld.appdoctor.AccountNo"
+    tools:ignore="MergeRootFrame" >
+    
+
+    <TextView
+        android:id="@+id/accnotext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/hello_world"
+        android:textSize="@dimen/text_size" />
+
+    <ImageButton
+        android:id="@+id/fb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/accnotext1"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/fb"
+        android:src="@drawable/fcbk" />
+
+    <ImageButton
+        android:id="@+id/gplus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fb1"
+        android:layout_toRightOf="@+id/fb1"
+        android:contentDescription="@string/googleplus"
+        android:src="@drawable/gplus" />
+
+    <ImageButton
+        android:id="@+id/lnkdin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/gplus1"
+        android:layout_toRightOf="@+id/gplus1"
+        android:contentDescription="@string/linkedin"
+        android:src="@drawable/lnkdin" />
+
+    <ImageButton
+        android:id="@+id/twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lnkdin"
+        android:layout_toRightOf="@+id/lnkdin"
+        android:contentDescription="@string/twitter"
+        android:src="@drawable/twitter" />
+
+    <TextView
+        android:id="@+id/mailme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fb1"
+        android:text="@string/hello_world"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    
+
+   </RelativeLayout>
+
+</ScrollView>
+<!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/layout/account_no.xml -->

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/notifyback"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/quote1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yourquote"
+        android:textSize="@dimen/quoteValue" />
+
+    <TextView
+        android:id="@+id/quote2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textSize="@dimen/quoteValue" />
+
+    <TextView
+        android:id="@+id/quote3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/niceday"
+        android:textSize="@dimen/quoteValue" />
+
+</LinearLayout>

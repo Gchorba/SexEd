@@ -1,0 +1,29 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"  
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/diseaseexp" >
+
+
+ <LinearLayout 
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    android:orientation="vertical"
+    tools:context="com.medworld.appdoctor.DiseaseExplanation"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/DiseaseTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/hello_world"
+        android:textSize="@dimen/disease_text" />
+
+    
+   </LinearLayout>
+</ScrollView><!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/layout/activity_disease_explanation.xml -->
