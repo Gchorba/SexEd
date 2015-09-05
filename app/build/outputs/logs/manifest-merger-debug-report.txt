@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:2:1-126:12
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:2:1-132:12
 	package
 		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml
@@ -41,175 +41,213 @@ ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:14:22-77
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:15:5-66
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:15:5-67
 	android:name
 		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:15:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:16:5-78
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:16:5-79
 	android:name
 		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:16:22-76
 application
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:18:5-124:19
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:18:5-130:19
 MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Jeroen\Documents\GitHub\SexEd\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:21:9-41
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:22:9-41
 	android:allowBackup
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:20:9-35
 	android:icon
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:20:9-45
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:21:9-45
 	android:theme
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:22:9-40
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:23:9-40
 activity#com.sexed.appdoctor.AppDoctor
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:23:9-31:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:24:9-33:20
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:27:13-49
 	android:label
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:25:13-45
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:26:13-45
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:24:13-57
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:25:13-57
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:31:27-74
 activity#com.appszoom.appszoomsdk.AppsZoomInterstitialActivity
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:32:9-34:63
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:34:9-37:64
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:36:13-49
 	android:theme
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:34:12-60
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:37:13-61
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:33:12-80
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:35:13-81
 activity#com.sexed.appdoctor.Symptoms
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:35:9-38:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:38:9-41:61
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:41:13-49
 	android:label
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:37:13-60
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:40:13-60
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:36:13-56
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:39:13-56
 activity#com.sexed.appdoctor.Diseases
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:39:9-42:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:42:9-45:61
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:45:13-49
 	android:label
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:41:13-60
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:44:13-60
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:40:13-56
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:43:13-56
 activity#com.sexed.appdoctor.Medicines
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:43:9-46:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:46:9-49:61
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:49:13-49
 	android:label
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:45:13-61
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:48:13-61
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:44:13-57
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:47:13-57
 activity#com.sexed.appdoctor.AboutMe
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:47:9-50:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:50:9-53:61
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:53:13-49
 	android:label
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:49:13-60
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:52:13-60
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:48:13-55
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:51:13-55
 activity#com.sexed.appdoctor.SubPainkiller
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:51:9-54:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:54:9-57:61
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:57:13-49
 	android:label
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:53:13-66
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:56:13-66
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:52:13-61
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:55:13-61
 activity#com.sexed.appdoctor.SubAntibiotic
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:55:9-58:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:58:9-61:61
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:61:13-49
 	android:label
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:57:13-66
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:60:13-66
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:56:13-61
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:59:13-61
 activity#com.sexed.appdoctor.SubAntihistamine
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:59:9-62:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:62:9-65:61
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:65:13-49
 	android:label
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:61:13-69
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:64:13-69
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:60:13-64
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:63:13-64
 activity#com.sexed.appdoctor.InspirationalQuotes
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:63:9-66:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:66:9-69:61
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:69:13-49
 	android:label
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:65:13-72
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:68:13-72
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:64:13-67
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:67:13-67
 activity#com.sexed.appdoctor.AccountNo
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:67:9-70:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:70:9-73:61
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:73:13-49
 	android:label
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:69:13-62
-	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:68:13-57
-activity#com.sexed.appdoctor.ResultEvaluate
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:71:9-74:20
-	android:label
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:73:13-67
-	android:name
 		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:72:13-62
+	android:name
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:71:13-57
+activity#com.sexed.appdoctor.ResultEvaluate
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:74:9-77:61
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:77:13-49
+	android:label
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:76:13-67
+	android:name
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:75:13-62
 activity#com.sexed.appdoctor.DiseaseExplanation
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:75:9-78:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:78:9-81:61
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:81:13-49
 	android:label
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:77:13-71
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:80:13-71
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:76:13-66
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:79:13-66
 activity#com.sexed.appdoctor.SubAntiinflamatory
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:79:9-82:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:82:9-84:83
 	android:label
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:81:13-71
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:84:13-71
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:80:13-66
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:83:13-66
 activity#com.sexed.appdoctor.AlarmListActivity
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:83:9-84:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:85:9-87:61
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:87:13-49
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:83:19-71
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:86:13-65
 activity#com.sexed.appdoctor.AlarmScreen
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:85:9-86:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:88:9-90:61
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:90:13-49
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:85:19-65
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:89:13-59
 activity#com.sexed.appdoctor.AlarmDetailsActivity
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:87:9-88:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:91:9-93:61
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:93:13-49
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:87:19-74
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:92:13-68
 activity#com.sexed.appdoctor.SetNotification
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:89:9-92:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:94:9-97:61
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:97:13-49
 	android:label
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:91:13-68
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:96:13-68
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:90:13-63
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:95:13-63
 service#com.sexed.appdoctor.AlarmService
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:94:9-97:19
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:99:9-102:60
 	android:enabled
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:96:13-35
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:101:13-35
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:102:13-49
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:95:13-60
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:100:13-60
 receiver#com.sexed.appdoctor.AlarmManagerHelper
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:99:9-103:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:104:9-110:20
+	android:screenOrientation
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:106:13-49
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:99:19-72
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:105:13-66
 intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:100:13-102:29
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:107:13-109:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:101:17-79
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:108:17-79
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:101:25-76
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:108:25-76
 receiver#com.appszoom.appszoomsdk.AppsZoomPackageAddedReceiver
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:108:9-114:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:115:9-120:20
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:109:14-82
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:115:19-87
 intent-filter#android.intent.action.PACKAGE_ADDED
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:110:14-113:30
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:116:13-119:29
 data
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:111:19-52
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:117:17-50
 	android:scheme
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:111:25-49
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:117:23-47
 action#android.intent.action.PACKAGE_ADDED
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:112:19-80
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:118:17-78
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:112:27-77
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:118:25-75
 receiver#com.appszoom.appszoomsdk.AppsZoomReferrerReceiver
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:117:9-123:20
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:123:9-129:20
 	android:exported
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:119:14-37
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:125:13-36
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:118:14-78
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:124:13-77
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:120:14-122:30
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:126:13-128:29
 action#com.android.vending.INSTALL_REFERRER
-ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:121:18-80
+ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:127:17-79
 	android:name
-		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:121:26-77
+		ADDED from C:\Users\Jeroen\Documents\GitHub\SexEd\app\src\main\AndroidManifest.xml:127:25-76
