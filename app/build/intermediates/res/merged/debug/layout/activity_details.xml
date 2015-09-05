@@ -73,4 +73,4 @@
             android:layout_below="@+id/alarm_ringtone_container" />
     </RelativeLayout>
 
-</ScrollView><!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/layout/activity_details.xml -->
+</ScrollView><!-- From: file:/C:/Users/Jeroen/Documents/GitHub/SexEd/app/src/main/res/layout/activity_details.xml -->

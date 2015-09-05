@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/medspic"
-    tools:context="com.medworld.appdoctor.Medicines"
+    tools:context="com.sexed.appdoctor.Medicines"
     tools:ignore="MergeRootFrame" >
 
     <ListView
@@ -17,4 +17,4 @@
 
 </FrameLayout>
 
-<!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/layout/activity_medicines.xml -->
+<!-- From: file:/C:/Users/Jeroen/Documents/GitHub/SexEd/app/src/main/res/layout/activity_medicines.xml -->

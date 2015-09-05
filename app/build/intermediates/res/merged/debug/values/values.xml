@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Jeroen/Documents/GitHub/SexEd/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
@@ -10,7 +10,7 @@
     <dimen name="quoteValue">22sp</dimen>
     <dimen name="text">30sp</dimen>
     <dimen name="text_size">20sp</dimen>
-    <!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Jeroen/Documents/GitHub/SexEd/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="ChestPain">chest pain</string>
     <string name="Chills">chills</string>
@@ -120,7 +120,7 @@
     <string name="welcome">welcome</string>
     <string name="yellowSkin">yellow discoloration of skin</string>
     <string name="yourquote">Your quote for today is</string>
-    <!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Jeroen/Documents/GitHub/SexEd/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
          <item name="android:actionBarStyle">@style/MyActionBar</item>

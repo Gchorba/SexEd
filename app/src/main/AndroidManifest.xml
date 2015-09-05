@@ -45,10 +45,6 @@
             android:label="@string/title_activity_medicines" >
         </activity>
         <activity
-            android:name="com.sexed.appdoctor.HealthNews"
-            android:label="@string/title_activity_health_news" >
-        </activity>
-        <activity
             android:name="com.sexed.appdoctor.AboutMe"
             android:label="@string/title_activity_about_me" >
         </activity>
@@ -83,8 +79,6 @@
         <activity
             android:name="com.sexed.appdoctor.SubAntiinflamatory"
             android:label="@string/title_activity_sub_antiinflamatory" >
-        </activity>
-        <activity android:name="com.sexed.appdoctor.Notify" >
         </activity>
         <activity android:name="com.sexed.appdoctor.AlarmListActivity" >
         </activity>

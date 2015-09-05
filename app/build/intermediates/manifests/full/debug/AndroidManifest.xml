@@ -21,7 +21,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.medworld.appdoctor.AppDoctor"
+            android:name="com.sexed.appdoctor.AppDoctor"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,76 +33,70 @@
             android:name="com.appszoom.appszoomsdk.AppsZoomInterstitialActivity"
             android:theme="@android:style/Theme.Translucent" />
         <activity
-            android:name="com.medworld.appdoctor.Symptoms"
+            android:name="com.sexed.appdoctor.Symptoms"
             android:label="@string/title_activity_symptoms" >
         </activity>
         <activity
-            android:name="com.medworld.appdoctor.Diseases"
+            android:name="com.sexed.appdoctor.Diseases"
             android:label="@string/title_activity_diseases" >
         </activity>
         <activity
-            android:name="com.medworld.appdoctor.Medicines"
+            android:name="com.sexed.appdoctor.Medicines"
             android:label="@string/title_activity_medicines" >
         </activity>
         <activity
-            android:name="com.medworld.appdoctor.HealthNews"
-            android:label="@string/title_activity_health_news" >
-        </activity>
-        <activity
-            android:name="com.medworld.appdoctor.AboutMe"
+            android:name="com.sexed.appdoctor.AboutMe"
             android:label="@string/title_activity_about_me" >
         </activity>
         <activity
-            android:name="com.medworld.appdoctor.SubPainkiller"
+            android:name="com.sexed.appdoctor.SubPainkiller"
             android:label="@string/title_activity_sub_painkiller" >
         </activity>
         <activity
-            android:name="com.medworld.appdoctor.SubAntibiotic"
+            android:name="com.sexed.appdoctor.SubAntibiotic"
             android:label="@string/title_activity_sub_antibiotic" >
         </activity>
         <activity
-            android:name="com.medworld.appdoctor.SubAntihistamine"
+            android:name="com.sexed.appdoctor.SubAntihistamine"
             android:label="@string/title_activity_sub_antihistamine" >
         </activity>
         <activity
-            android:name="com.medworld.appdoctor.InspirationalQuotes"
+            android:name="com.sexed.appdoctor.InspirationalQuotes"
             android:label="@string/title_activity_inspirational_quotes" >
         </activity>
         <activity
-            android:name="com.medworld.appdoctor.AccountNo"
+            android:name="com.sexed.appdoctor.AccountNo"
             android:label="@string/title_activity_account_no" >
         </activity>
         <activity
-            android:name="com.medworld.appdoctor.ResultEvaluate"
+            android:name="com.sexed.appdoctor.ResultEvaluate"
             android:label="@string/title_activity_result_evaluate" >
         </activity>
         <activity
-            android:name="com.medworld.appdoctor.DiseaseExplanation"
+            android:name="com.sexed.appdoctor.DiseaseExplanation"
             android:label="@string/title_activity_disease_explanation" >
         </activity>
         <activity
-            android:name="com.medworld.appdoctor.SubAntiinflamatory"
+            android:name="com.sexed.appdoctor.SubAntiinflamatory"
             android:label="@string/title_activity_sub_antiinflamatory" >
         </activity>
-        <activity android:name="com.medworld.appdoctor.Notify" >
+        <activity android:name="com.sexed.appdoctor.AlarmListActivity" >
         </activity>
-        <activity android:name="com.medworld.appdoctor.AlarmListActivity" >
+        <activity android:name="com.sexed.appdoctor.AlarmScreen" >
         </activity>
-        <activity android:name="com.medworld.appdoctor.AlarmScreen" >
-        </activity>
-        <activity android:name="com.medworld.appdoctor.AlarmDetailsActivity" >
+        <activity android:name="com.sexed.appdoctor.AlarmDetailsActivity" >
         </activity>
         <activity
-            android:name="com.medworld.appdoctor.SetNotification"
+            android:name="com.sexed.appdoctor.SetNotification"
             android:label="@string/title_activity_set_notification" >
         </activity>
 
         <service
-            android:name="com.medworld.appdoctor.AlarmService"
+            android:name="com.sexed.appdoctor.AlarmService"
             android:enabled="true" >
         </service>
 
-        <receiver android:name="com.medworld.appdoctor.AlarmManagerHelper" >
+        <receiver android:name="com.sexed.appdoctor.AlarmManagerHelper" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>

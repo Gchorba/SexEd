@@ -7,7 +7,7 @@
    
     android:orientation="horizontal"
    
-    tools:context="com.medworld.appdoctor.InspirationalQuotes"
+    tools:context="com.sexed.appdoctor.InspirationalQuotes"
     tools:ignore="MergeRootFrame" >
 
     <Space
@@ -29,4 +29,4 @@
     </ListView>
 
 </TableLayout>
-<!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/layout/inspirational_quotes.xml -->
+<!-- From: file:/C:/Users/Jeroen/Documents/GitHub/SexEd/app/src/main/res/layout/inspirational_quotes.xml -->

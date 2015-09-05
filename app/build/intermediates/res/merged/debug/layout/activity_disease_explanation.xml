@@ -13,7 +13,7 @@
     android:layout_height="wrap_content"
    
     android:orientation="vertical"
-    tools:context="com.medworld.appdoctor.DiseaseExplanation"
+    tools:context="com.sexed.appdoctor.DiseaseExplanation"
     tools:ignore="MergeRootFrame" >
 
     <TextView
@@ -26,4 +26,4 @@
 
     
    </LinearLayout>
-</ScrollView><!-- From: file:/C:/Users/Gene/Desktop/Hacks/PennApps/AppDoctor1/app/src/main/res/layout/activity_disease_explanation.xml -->
+</ScrollView><!-- From: file:/C:/Users/Jeroen/Documents/GitHub/SexEd/app/src/main/res/layout/activity_disease_explanation.xml -->
