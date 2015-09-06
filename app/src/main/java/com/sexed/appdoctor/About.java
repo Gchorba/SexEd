@@ -4,13 +4,41 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class About extends Activity {
+
+
+    private Button back;
+    private TextView why;
+    private TextView who;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.about);
+
+        back = (Button) findViewById(R.id.button4);
+        why = (TextView) findViewById(R.id.why);
+        who = (TextView) findViewById(R.id.who);
+
+
+        why.setText("Short answer: Because it's about time. \n"
+                + "Longer answer: In the US, only 21 states require sexual education to be taught at school, and of those 21 only 18 require" +
+                " the lessons to be medically acurate. Basically less than half the country is getting educated " +
+                "when it comes down to sex. Given these numbers, people are still surprised that " +
+                "nearly 750,000 teenage girls get pregnant every year. That's almost twice as much as our northern neighbors Canada.");
+        who.setText("Jeroen Goossens, Gene Chorba, Kim Noel, and Becca Nock.");
+
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
     }
 
     @Override

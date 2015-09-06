@@ -39,7 +39,7 @@ public class AppDoctor extends Activity {
             @Override
             public void onClick(View view) {
                 //start the utilities menu activity
-                startActivity(new Intent(AppDoctor.this,Messages.class));
+                startActivity(new Intent(AppDoctor.this,Tools.class));
             }
         });
 
@@ -47,6 +47,7 @@ public class AppDoctor extends Activity {
             @Override
             public void onClick(View view) {
                 //start the about us activity
+                startActivity(new Intent(AppDoctor.this,About.class));
             }
         });
 
