@@ -1,16 +1,50 @@
 package com.sexed.appdoctor;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 public class Education extends Activity {
+
+    private Button back;
+    private Button lessons;
+    private Button quizzes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.education);
+
+        back = (Button) findViewById(R.id.button16);
+        lessons = (Button) findViewById(R.id.button17);
+        quizzes = (Button) findViewById(R.id.button18);
+
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
+        lessons.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+startActivity(new Intent(Education.this, Lessons.class));
+            }
+        });
+
+        quizzes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Education.this, Quizzes.class));
+
+            }
+        });
     }
 
     @Override

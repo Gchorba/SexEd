@@ -11,12 +11,9 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.ProgressBar;
 
-import com.sexed.appdoctor.R;
 import com.squareup.okhttp.Callback;
 import com.squareup.okhttp.FormEncodingBuilder;
-import com.squareup.okhttp.Headers;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.RequestBody;
@@ -29,7 +26,6 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.concurrent.Executor;
 
 public class Messages extends Activity {
 
@@ -58,7 +54,7 @@ public class Messages extends Activity {
 
         userID = (int) (Math.random() * 1000) + 1;
 
-        Variable.alive = true;
+        Variables.alive = true;
         client = new OkHttpClient();
 
         submit = (Button) findViewById(R.id.button9);
@@ -79,7 +75,7 @@ public class Messages extends Activity {
 
             @Override
             protected Void doInBackground(Void... voids) {
-                while (Variable.alive) {
+                while (Variables.alive) {
                     //sleep for a second
                     try {
                         Thread.sleep(1500);
@@ -161,7 +157,7 @@ public class Messages extends Activity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Variable.alive = false;
+                Variables.alive = false;
                 finish();
             }
         });

@@ -46,15 +46,7 @@ public class Tools extends Activity {
         detector.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //TODO Gene, modify the intent
-//                startActivity(new Intent(Tools.this,Detector.class));
-            }
-        });
-
-        clinics.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Tools.this, Clinics.class));
+                startActivity(new Intent(Tools.this, DiseaseIdentifier.class));
             }
         });
 

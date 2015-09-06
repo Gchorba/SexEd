@@ -32,6 +32,8 @@ public class AppDoctor extends Activity {
             public void onClick(View view) {
                 //start the education activity
 
+                startActivity(new Intent(AppDoctor.this,Education.class));
+
             }
         });
 

@@ -110,9 +110,11 @@
     <string name="title_activity_education">Education</string>
     <string name="title_activity_health_news">Health News</string>
     <string name="title_activity_inspirational_quotes">Inspirational Quotes</string>
+    <string name="title_activity_lessons">Lessons</string>
     <string name="title_activity_medicines">Medicines</string>
     <string name="title_activity_messages">Messages</string>
     <string name="title_activity_period_tracker">Period Tracker</string>
+    <string name="title_activity_quizzes">Quizzes</string>
     <string name="title_activity_result_evaluate">ResultEvaluate</string>
     <string name="title_activity_set_notification">Your daily Quote:)</string>
     <string name="title_activity_settings">Settings</string>
