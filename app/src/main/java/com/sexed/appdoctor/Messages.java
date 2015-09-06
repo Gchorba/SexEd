@@ -7,8 +7,10 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.ProgressBar;
 
 import com.sexed.appdoctor.R;
@@ -34,7 +36,7 @@ public class Messages extends Activity {
     private Button submit;
     private EditText input;
     private OkHttpClient client;
-    private EditText messages;
+    private ListView messages;
     private Button back;
     private int userID;
     private JSONObject ob;
@@ -42,6 +44,7 @@ public class Messages extends Activity {
     private ArrayList<String> messageIDs;
     private String in;
     private Calendar now;
+    private ArrayAdapter<String> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,12 +63,16 @@ public class Messages extends Activity {
 
         submit = (Button) findViewById(R.id.button9);
         input = (EditText) findViewById(R.id.editText);
-        messages = (EditText) findViewById(R.id.editText2);
+        messages = (ListView) findViewById(R.id.listView);
         back = (Button) findViewById(R.id.button8);
 
 
         //initializations
-        messages.setText("");
+        adapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1, android.R.id.text1, msgs);
+        messages.setAdapter(adapter);
+
+
 
         //async task updating every second
         new AsyncTask<Void, Void, Void>() {
@@ -117,14 +124,20 @@ public class Messages extends Activity {
 
                                     if (!messageIDs.contains(ob.getString("message_id"))) {
                                         messageIDs.add(ob.getString("message_id"));
-                                        msgs.add(ob.getString("message"));
                                         runOnUiThread(new Runnable() {
                                             @Override
                                             public void run() {
                                                 try {
-                                                    messages.append(ob.getString("uid") + " : " + ob.getString("message") + "\n");
+                                                    //TODO chage this to add to listview instead of nonexistent text field
+
+                                                    adapter.add(ob.getString("uid") + " : " + ob.getString("message"));
+                                                    adapter.notifyDataSetChanged();
+                                                    scrollMyListViewToBottom();
+
+
+
                                                 } catch (JSONException e) {
-                                                    Log.e("JSON exception", e.getMessage());
+                                                    Log.e("JSON exception in", e.getMessage());
                                                 }
                                             }
                                         });
@@ -160,7 +173,7 @@ public class Messages extends Activity {
                 in = input.getText().toString();
 
                 now = Calendar.getInstance();
-                Log.e("here","date");
+                Log.e("here", "date");
 
                 new AsyncTask<Void, Void, Void>() {
 
@@ -173,11 +186,11 @@ public class Messages extends Activity {
 
                         RequestBody formBody = new FormEncodingBuilder()
                                 .add("uid", userID + "")
-                                .add("timestamp", now.get(Calendar.YEAR)+"-"+now.get(Calendar.MONTH) + "-" + now.get(Calendar.DATE)) //TODO fix the time
+                                .add("timestamp", now.get(Calendar.YEAR) + "-" + now.get(Calendar.MONTH) + "-" + now.get(Calendar.DATE)) //TODO fix the time
                                 .add("message", in)
                                 .build();
 
-                        Log.e("printing formbody","uid: " + userID + ", time: " + now.get(Calendar.YEAR)+"-"+now.get(Calendar.MONTH) + "-" + now.get(Calendar.DATE)+", message: " + in);
+                        Log.e("printing formbody", "uid: " + userID + ", time: " + now.get(Calendar.YEAR) + "-" + now.get(Calendar.MONTH) + "-" + now.get(Calendar.DATE) + ", message: " + in);
                         Request request = new Request.Builder()
                                 .url("http://45.79.131.252/input.php")
                                 .post(formBody)
@@ -189,7 +202,7 @@ public class Messages extends Activity {
                                 throw new IOException("Unexpected code " + response);
 
 
-                            Log.e("response",response.body().string());
+                            Log.e("response", response.body().string());
                         } catch (IOException e) {
                             Log.e("error", e.getMessage());
                         }
@@ -207,11 +220,20 @@ public class Messages extends Activity {
 //                messages.append(input.getText().toString());
 
 
-
             }
         });
 
 
+    }
+
+    private void scrollMyListViewToBottom() {
+        messages.post(new Runnable() {
+            @Override
+            public void run() {
+                // Select the last row so it will scroll into view...
+                messages.setSelection(adapter.getCount() - 1);
+            }
+        });
     }
 
     @Override

@@ -95,7 +95,7 @@ public final class R {
         public static final int button9=0x7f09000b;
         public static final int container=0x7f090004;
         public static final int editText=0x7f09000a;
-        public static final int editText2=0x7f09000c;
+        public static final int listView=0x7f09000c;
         public static final int textView=0x7f090008;
     }
     public static final class layout {
