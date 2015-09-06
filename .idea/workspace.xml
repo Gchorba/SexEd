@@ -17,13 +17,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4575c5a-c034-4cb0-97d4-b90b5fc4a023" name="Default" comment="">
+    <list default="true" id="c4575c5a-c034-4cb0-97d4-b90b5fc4a023" name="Default" comment="Functional chat &#10;&#10;still TODO: &#10; - check if it works on multiple devices at the same time&#10; - remove chat when everyone is out&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SexEd.iws" />
@@ -141,12 +138,22 @@
       <file leaf-file-name="Messages.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Messages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5026087">
-              <caret line="90" column="79" selection-start-line="90" selection-start-column="79" selection-end-line="90" selection-end-column="79" />
+            <state vertical-scroll-proportion="1.9217391">
+              <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
               <folding>
-                <element signature="e#1944#5485#0" expanded="true" />
-                <element signature="e#5484#5485#0" expanded="true" />
+                <element signature="e#1944#5480#0" expanded="true" />
+                <element signature="e#5479#5480#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Variable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Variable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1603,8 +1610,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Settings.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/tools.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/AppDoctor.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Variable.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/messages.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Variable.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Messages.java" />
       </list>
     </option>
@@ -1743,15 +1750,51 @@
               <option name="myItemId" value="SexEd" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+              <option name="myItemId" value="SexEd" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="SexEd" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appdoctor" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SexEd" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2044,7 +2087,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441480610597</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Functional chat &#10;&#10;still TODO: &#10; - check if it works on multiple devices at the same time&#10; - remove chat when everyone is out&#10;">
+      <created>1441499804859</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1441499804859</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2097,7 +2146,8 @@
     <MESSAGE value="portrait everywhere" />
     <MESSAGE value="Complete overhaul...." />
     <MESSAGE value="added some networking capabilities" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some networking capabilities" />
+    <MESSAGE value="Functional chat &#10;&#10;still TODO: &#10; - check if it works on multiple devices at the same time&#10; - remove chat when everyone is out&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functional chat &#10;&#10;still TODO: &#10; - check if it works on multiple devices at the same time&#10; - remove chat when everyone is out&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2182,8 +2232,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1944#5485#0" expanded="true" />
-            <element signature="e#5484#5485#0" expanded="true" />
+            <element signature="e#1944#5480#0" expanded="true" />
+            <element signature="e#5479#5480#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2264,8 +2314,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1944#5485#0" expanded="true" />
-            <element signature="e#5484#5485#0" expanded="true" />
+            <element signature="e#1944#5480#0" expanded="true" />
+            <element signature="e#5479#5480#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2346,8 +2396,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1944#5485#0" expanded="true" />
-            <element signature="e#5484#5485#0" expanded="true" />
+            <element signature="e#1944#5480#0" expanded="true" />
+            <element signature="e#5479#5480#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2545,14 +2595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Variable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/messages.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2575,6 +2617,14 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Variable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/AppDoctor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2585,11 +2635,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sexed/appdoctor/Messages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5026087">
-          <caret line="90" column="79" selection-start-line="90" selection-start-column="79" selection-end-line="90" selection-end-column="79" />
+        <state vertical-scroll-proportion="1.9217391">
+          <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
           <folding>
-            <element signature="e#1944#5485#0" expanded="true" />
-            <element signature="e#5484#5485#0" expanded="true" />
+            <element signature="e#1944#5480#0" expanded="true" />
+            <element signature="e#5479#5480#0" expanded="true" />
           </folding>
         </state>
       </provider>
